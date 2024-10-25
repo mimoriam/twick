@@ -7,3 +7,5 @@ npx shadcn@2.1.1 init
 npx shadcn@latest add button
 
 npm i @clerk/nextjs
+
+npm i @clerk/themes next-themes
