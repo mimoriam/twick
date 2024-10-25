@@ -5,3 +5,5 @@ npm i @next/env
 
 npx shadcn@2.1.1 init
 npx shadcn@latest add button
+
+npm i @clerk/nextjs
