@@ -2,3 +2,6 @@ npm i -D prettier eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin
 @tanstack/eslint-plugin-query @trivago/prettier-plugin-sort-imports
 
 npm i @next/env
+
+npx shadcn@2.1.1 init
+npx shadcn@latest add button
