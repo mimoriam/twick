@@ -1,0 +1,4 @@
+npm i -D prettier eslint-plugin-tailwindcss eslint-config-prettier eslint-plugin-prettier prettier-plugin-tailwindcss
+@tanstack/eslint-plugin-query @trivago/prettier-plugin-sort-imports
+
+npm i @next/env

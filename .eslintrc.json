@@ -1,3 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:tailwindcss/recommended",
+    "plugin:@tanstack/query/recommended",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["warn"],
+    "no-unused-vars": "warn",
+    // Dangerous:
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "ignorePatterns": ["node_modules/*", "public/mockServiceWorker.js", "generators/*"]
 }
