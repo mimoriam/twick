@@ -9,3 +9,10 @@ npx shadcn@latest add button
 npm i @clerk/nextjs
 
 npm i @clerk/themes next-themes
+
+
+npm i @prisma/client
+npm i -D prisma
+npx prisma init
+npx prisma migrate dev --name init
+npx prisma studio
