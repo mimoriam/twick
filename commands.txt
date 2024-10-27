@@ -18,3 +18,4 @@ npx prisma migrate dev --name init
 npx prisma studio
 
 npm install svix
+npm i query-string
