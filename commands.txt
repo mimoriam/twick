@@ -19,3 +19,8 @@ npx prisma studio
 
 npm install svix
 npm i query-string
+npx shadcn@latest add input
+
+npx shadcn@latest add tooltip
+npx shadcn@latest add skeleton
+npm i tailwindcss-animate usehooks-ts zustand
